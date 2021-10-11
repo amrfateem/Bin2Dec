@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Bin2Dec</title>
+</head>
+
+<body>
+    <div class="app">
+        <div id="welcome">
+            <h1>Welcome to my Bin2Dec</h1>
+            <p>it's a Binary-to-Decimal number converter. try it now!!</p>
+        </div>
+
+        <form id="inputBox" action="" onsubmit="x.value=parseInt(binput.value,2); return false;">
+            <label for="input">Input your Binary number here! (Only 0 and 1 will work)</label>
+            <input type="numeric" name="binput" id="input" min="1" maxlength="8" pattern="[0-1]*" required oninvalid="alert('the number must be either 0 or 1!')">
+            <label for="output">Your output is here!</label>
+            <output name="x" id="output" for="binput">Enter a number to begin</output>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background: #b92b27;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+}
+
+.app {
+    padding: 15px 10px 15px 10px;
+    border-style: solid 5px black;
+    background-color: rgb(38, 114, 202);
+    border-radius: 10px;
+    height: auto;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: aqua;
+}
+
+#inputBox {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+input,
+button {
+    margin: auto;
+    width: 20vw;
+    height: 20px;
+}
